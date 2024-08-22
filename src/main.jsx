@@ -3,9 +3,10 @@ import { createRoot } from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
 
-alert("Esto no funciona")
+const rootElement = document.getElementById('root')
+const root = createRoot(rootElement)
 
-createRoot(document.getElementById('root')).render(
+root.hydrate(
   <StrictMode>
     <App />
   </StrictMode>,
