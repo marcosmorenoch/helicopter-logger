@@ -46,7 +46,7 @@ function Download() {
 
   return (
     <div className="download-container">
-      <h2>Download Report</h2>
+      <h2>Informe recogida helicóptero</h2>
       <form>
         <label>
           Nombre del paciente:
@@ -75,6 +75,7 @@ function Download() {
         <button className="btn" onClick={handleCreateFile}>
           Crear archivo con los datos
         </button>
+        <p>@mrksmcc ❤️</p>
       </div>
     </div>
   );
