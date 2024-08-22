@@ -1,0 +1,69 @@
+* {
+  font-family: sans-serif;
+}
+
+.download-container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.download-container h2 {
+  margin-top: 0;
+  font-weight: 700;
+  color: #333;
+}
+
+.download-container label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 500;
+  color: #666;
+}
+
+.download-container input[type="text"] {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 20px;
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.download-container .report-info {
+  margin-top: 20px;
+}
+
+.download-container .report-info p {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #666;
+}
+
+.download-container .btn {
+  background-color: #337ab7;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: background-color 0.2s ease;
+}
+
+.download-container .btn:hover {
+  background-color: #23527c;
+}
+
+.download-container .btn:active {
+  background-color: #1d4a7a;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.download-container .report-info p button {
+  margin-left: 10px;
+}
